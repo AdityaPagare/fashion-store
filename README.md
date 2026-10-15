@@ -1,4 +1,4 @@
-# VYRN
+# 11:11
 
 Editorial fashion storefront built from the supplied corrected visual and animation blueprint.
 
@@ -10,7 +10,7 @@ See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for local database setup and Cloudf
 
 ## Reference fidelity
 
-The homepage follows the supplied sequence with the requested correction: VYRN opening and logo-to-header docking, A-COLD-WALL hero, one category section containing the model-change storyboard and final category lineup, VYRN Studio and its lower campaign, editorial statement, collection carousel, New Drop, Future Essentials.
+The homepage follows the supplied sequence with the requested correction: 11:11 opening and logo-to-header docking, A-COLD-WALL hero, one category section containing the model-change storyboard and final category lineup, 11:11 Studio and its lower campaign, editorial statement, collection carousel, New Drop, Future Essentials.
 
 Twenty-two independently generated HD photographs replace small screenshot crops and catalog/category sprites: 21 native 1024×1536 portraits and one 1536×1024 landscape. Five category portraits preserve transparency. Full-resolution WebP files and 512px responsive derivatives are under public/assets/hd; dimensions and prompts are in docs/hd-image-manifest.json and docs/hd-image-prompts.json. Existing hero, editorial and final campaign images remain at their native resolution. No image was enlarged and relabeled as 4K. Product photography is reconstructed from the references and requires merchant approval before live sales.
 
@@ -36,4 +36,4 @@ All required visual assets are under public/assets. Catalog, reference crop mapp
 
 ## Complete source export
 
-This repository contains all application routes, components, animations, styles, server endpoints, database migrations, build tooling, pinned dependencies, and website assets from the completed VYRN project. The original 22 HD PNG source photographs are preserved in `source-assets/hd/`; full-resolution and responsive website versions are in `public/assets/hd/`. Generated build outputs, installed dependencies, local databases, and credentials are excluded.
+This repository contains all application routes, components, animations, styles, server endpoints, database migrations, build tooling, pinned dependencies, and website assets from the completed 11:11 project. The original 22 HD PNG source photographs are preserved in `source-assets/hd/`; full-resolution and responsive website versions are in `public/assets/hd/`. Generated build outputs, installed dependencies, local databases, and credentials are excluded.
