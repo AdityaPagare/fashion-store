@@ -21,7 +21,7 @@ Live Stripe payments, transactional receipts, inventory fulfillment and commerci
 
 - Re-read the full supplied blueprint and master implementation prompt.
 - Removed the separate CategoryStory section; one category section remains.
-- Verified the centered VYRN opening and the settled hero/header; docking uses the measured header wordmark rectangle. Intro can be skipped and replays on a full homepage load; skip was checked to remove the overlay immediately without later timer reappearance.
+- Verified the centered 11:11 opening and the settled hero/header; docking uses the measured header wordmark rectangle. Intro can be skipped and replays on a full homepage load; skip was checked to remove the overlay immediately without later timer reappearance.
 - Replaced all screenshot-based image references in rendered routes with standalone HD assets. All 22 files and responsive variants are present; image integrity checks found no missing sources.
 - Verified 390px and 768px responsive surfaces, including hero, categories, gallery, product grid, editorial and closing campaign. Desktop Studio photographs load and every collage card fits inside its section. No horizontal overflow in these inspected surfaces.
 - Category sequence retains a fixed layout height, including when entering later sections directly by anchor. Verified editorial anchor settles at the intended 110px header clearance.

@@ -27,5 +27,5 @@ export function OpeningSequence(){
   return()=>cancel.current();
  },[]);
  if(phase==='done')return null;
- return <div className="brand-opening" data-phase={phase} aria-label="VYRN opening"><div className="opening-panel opening-left"/><div className="opening-panel opening-right"/><div ref={logo} className="opening-logo">VYRN<span>®</span></div><p className="opening-note mono">INDEPENDENT EXPRESSION.</p><button className="opening-skip" onClick={()=>{cancel.current();setPhase('done')}}>Skip intro</button></div>;
+ return <div className="brand-opening" data-phase={phase} aria-label="11:11 opening"><div className="opening-panel opening-left"/><div className="opening-panel opening-right"/><div ref={logo} className="opening-logo">11:11<span>®</span></div><p className="opening-note mono">INDEPENDENT EXPRESSION.</p><button className="opening-skip" onClick={()=>{cancel.current();setPhase('done')}}>Skip intro</button></div>;
 }

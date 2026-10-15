@@ -1,14 +1,14 @@
-# Deploy VYRN
+# Deploy 11:11
 
-VYRN uses React, Vinext/Vite, Cloudflare Workers and D1. The complete application includes server endpoints for cart, newsletter, contact, checkout and order lookup. A static host such as GitHub Pages cannot run these endpoints. This export targets Cloudflare Workers; it is not configured as a standard Next.js/Vercel deployment.
+11:11 uses React, Vinext/Vite, Cloudflare Workers and D1. The complete application includes server endpoints for cart, newsletter, contact, checkout and order lookup. A static host such as GitHub Pages cannot run these endpoints. This export targets Cloudflare Workers; it is not configured as a standard Next.js/Vercel deployment.
 
 ## Install and develop
 
 Use Node.js 22.13 or later and the pinned pnpm version, 11.25.0.
 
 ```sh
-git clone https://github.com/gireeshkumarreddy/VYRN.git
-cd VYRN
+git clone https://github.com/gireeshkumarreddy/11-11.git
+cd 11-11
 corepack enable
 corepack prepare pnpm@11.25.0 --activate
 pnpm install --frozen-lockfile
@@ -26,10 +26,10 @@ The development server defaults to port 5173. Apply the local schema to a fresh 
 
    ```sh
    pnpm exec wrangler login
-   pnpm exec wrangler d1 create vyrn-db
+   pnpm exec wrangler d1 create 11-11-db
    ```
 
-2. In `wrangler.deploy.jsonc`, replace the all-zero example `database_id` with the ID returned by the create command. Keep the binding name `DB`. You can also change the Worker name `vyrn` to an available name in your account.
+2. In `wrangler.deploy.jsonc`, replace the all-zero example `database_id` with the ID returned by the create command. Keep the binding name `DB`. You can also change the Worker name `11-11` to an available name in your account.
 
 3. Build, apply database migrations, and deploy:
 
